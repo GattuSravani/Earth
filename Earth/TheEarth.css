@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#earth_container{
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 475px;
+    background-image: url(../../assests/images/earth.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#earth_container:hover{
+    background-position: left;
+    background-size: 50%;
+    border: 10px double blue;
+}
+legend{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#earth_container:hover>legend{
+    margin-left: 180px;
+    font-size: 40px;
+    color: blue;
+}
+#earth_container:hover>#earth_heading,#earth_container:hover>#earth_paragraph{
+    margin-left: 55%;
+}
+#earth_container:hover>#earth_heading{
+    width: fit-content;
+    color: blue;
+    background-color: lightblue;
+    margin-top: 50px;
+}
+#earth_container:hover>#earth_paragraph{
+    margin-top: 20px;
+    font-size: 18px;
+    color: blue;
+}
+#earth_heading,#earth_paragraph{
+    color: transparent;
+}
